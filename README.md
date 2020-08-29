@@ -10,6 +10,10 @@ execute: build.sh
 cd build
 python3 main.py
 
+# how to use
+connect http://your-ip-address:8000/
+login with your Linux account. It's authed by pam module.
+
 # requirements
 npm, nodejs, python3, pip3
 
